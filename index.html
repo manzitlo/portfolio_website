@@ -16,38 +16,413 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive portfolio website Chris - Bedimcode</title>
+        <title>Portfolio Wenzhe Luo</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
-            
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Wenzhe
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="ri-home-smile-line"></i> HOME
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="ri-pencil-ruler-2-line"></i> SKILLS
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="ri-book-mark-line"></i> QUALIFICATION
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="ri-function-line"></i> PROJECTS
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#memories" class="nav__link">
+                                <i class="ri-image-2-line"></i> MEMORIES
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="ri-chat-smile-3-line"></i> CONTACT ME
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Close Button-->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i> 
+                    </div>
+                </div>
+
+                <div class="nav__buttons">
+                    <!-- Theme change <button> -->
+                    <!-- <i class="ri-contrast-2-line change-theme" id="theme-button"></i> -->
+
+                    <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                
+                <div class="home__container container grid section__border">
+                    <div class="home__data grid">
+                        <h1 class="home__title">
+                            Hi, This is Wenzhe Luo <br>
+                            Seeking FullStack Engineer <br>
+                            Master in Computer Engineering <br>
+                            Keep Hard-working on it...
+                        </h1>
+
+                        <div class="home__blob grid">
+                            <div class="home__perfill">
+                                <img src="assets/img/perfill.png" alt="home perfill">
+                            </div>
+
+                            <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+
+                        </div>
+
+                        <ul class="home__social">
+                            <a href="https://www.linkedin.com/in/topwesley/" target="-blank" class="home__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+
+                            <a href="https://github.com/manzitlo" target="-blank" class="home__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/manzitlo/" target="-blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <!--==================== HOME INFO 1 ====================-->
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                <b>INTRODUCTION</b>
+                            </h3>
+
+                            <p class="home__info-description">
+                                Hello, wish you all doing well... <br>
+
+                                My name is Wenzhe Luo, 
+                                this is my last semester at GMU as a master student, majoring in CE with concentration in Machine Learning!
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">
+                                <b>CONTACT</b>
+                            </h3>
+
+                            <p class="home__info-description">
+                                <b>Name: </b>Wenzhe Luo <br>
+                                <b>Email: </b>wluo4@gmu.edu <br>
+                                <b>Location: </b> Vienna, VA, USA <br>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!--==================== HOME INFO 2 ====================-->
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                YEAR OF EXPERIENCE
+                            </h3>
+
+                            <p class="home__info-number">
+                                01+
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">
+                                COMPLETED PROJECTS
+                            </h3>
+
+                            <p class="home__info-number">
+                                06+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
             </section>
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
-                
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My favorite skills</span>
+
+                <div class="skill__container container grid section__border">
+                    <!--==================== SKILLS 1====================-->
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-braces-line"></i> Web Development
+                        </h3>
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/html-1.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/css-3.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/logo-javascript.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">JAVASCRIPT</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/react-2.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">REACT Native</h3>
+                                <span class="skills__subtitle">Beginner</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/angular-icon-1.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">ANGULAR</h3>
+                                <span class="skills__subtitle">Beginner</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SKILLS 2====================-->
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-database-line"></i> Backend With Database
+                        </h3>
+
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/nodejs-1.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">NodeJS</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/git-icon.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Git</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/python-4.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Python</h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/mongodb-icon-1.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">MongoDB</h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/heroku-4.svg" alt="" class="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Heorku</h3>
+                                <span class="skills__subtitle">Beginner</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
             </section>
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section" id="qualification">
-                
-            </section>
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">Experience & Education</span>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
+                <div class="qualification__container container grid section__border">
+                    <!--==================== QUALIFICATION 1 ====================-->
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-pen-nib-line"></i> Education
+                        </h3>
+
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    Master In Computer Engineering
+                                </h3>
+                                <span class="qualification__country"> George Mason University </span>
+                                <span class="qualification__year"> [2021 - 2023]</span>
+                            </div> 
+
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATION 2 ====================-->
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-computer-line"></i> Work
+                        </h3>
+
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    Software Engineer
+                                </h3>
+                                <span class="qualification__country">Meetfood (remote) - Vienna, USA</span>
+                                <span class="qualification__year"> [Sep 2022 - Feb 2023] </span>
+                            </div> 
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    Junior Engineer
+                                </h3>
+                                <span class="qualification__country"> CRSC - Guangzhou, China</span>
+                                <span class="qualification__year"> [2017 - 2018] </span>
+                            </div> 
+
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
             </section>
 
             <!--==================== PROJECTS ====================-->
             <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">What I did...</span>
+
+                <div class="projects__container container grid section__border">
+                    <div class="projects__card">
+                        <i class="ri-window-line"></i>
+
+                        <h2 class="projects__title">
+                            Web App (Independent)<br>
+                            Elevator Booking System
+                        </h2>
+
+                        <p class="projects__description">
+                            Built a Web APP for residents in apartment 
+                            to apply for using elevator and deployed 
+                            this APP to the Heroku cloud.
+                        </p>
+
+                        <div class="projects__border"></div>
+                    </div>
+
+                    <div class="projects__card">
+                        <i class="ri-suitcase-2-line"></i>
+
+                        <h2 class="projects__title">
+                            MERN Stack App (Independent)<br>
+                            Website App for Hotel Reservation System
+                        </h2>
+
+                        <p class="projects__description">
+                            Built a MERN (MongoDB, Express, React(UI design), Node.js) - Stack Website App 
+                            to allow users to book a hotel (based on booking.com/)
+                        </p>
+
+                        <div class="projects__border"></div>
+                    </div>
+
+                    <div class="projects__card">
+                        <i class="ri-robot-line"></i>
+
+                        <h2 class="projects__title">
+                            Machine Learning Application (Independent)<br>
+                            Prediction of NBA team strength in 2023
+                        </h2>
+
+                        <p class="projects__description">
+                            Implemented ML Algorithm (ELO function) to predict 
+                            the outcome of each game in the ongoing 2022-2023 NBA regular season
+                            (dataset comes from basketball-reference.com/)
+                        </p>
+
+                        <div class="projects__border"></div>
+                    </div>
+
+                    <div class="projects__card">
+                        <i class="ri-cpu-line"></i>
+
+                        <h2 class="projects__title">
+                            Internet of Things Application (Group)<br>
+                            Realtime GPS Tracking System
+                        </h2>
+
+                        <p class="projects__description">
+                            Created an embedded lightweight device and 
+                            Implemented real-time data transmission with Google Firebase Cloud Platform
+                        </p>
+
+                        <div class="projects__border"></div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== MEMORIES ====================-->
+            <section class="memories section" id="memories">
                 
             </section>
 
