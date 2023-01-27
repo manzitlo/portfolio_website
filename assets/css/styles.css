@@ -538,6 +538,20 @@ body.dark-theme {
   opacity: 1;
 }
 
+.projects__social{
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+  transition: color .3s;
+}
+
+.projects__social:hover{
+  color: var(--title-color);
+}
+
+.projects__social i{
+  font-size: 1.25rem;
+}
+
 
 /*=============== MEMORIES ===============*/
 .memories__container{
@@ -550,7 +564,7 @@ body.dark-theme {
 }
 
 .memories__img{
-  width: 250px;
+  width: 300px;
   border-radius: .75rem;
   margin-bottom: 1.25rem;
 }
@@ -607,6 +621,23 @@ body.dark-theme {
 .memories__container .swiper-button-next{
   right: -1rem;
   top: 4.5rem;
+}
+
+.memories__container .swiper-slide{
+  margin-bottom: 4.5rem;
+}
+
+.memories__container .swiper-pagination-bullets{
+  bottom: 0;
+}
+
+.memories__container .swiper-pagination-bullet{
+  background-color: var(--text-color-light);
+  opacity: initial;
+}
+
+.memories__container .swiper-pagination-bullet-active{
+  background-color: var(--title-color);
 }
 
 /*=============== TESTIMONIAL ===============*/

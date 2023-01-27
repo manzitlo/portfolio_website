@@ -41,8 +41,12 @@ let swiperMemories = new Swiper(".memories__container", {
     pagination: {
       el: ".swiper-pagination",
     },
-    mousewheel: true,
-    keyboard: true,
+    breakpoints: {
+        1200: {
+          slidesPerView: 2,
+          spaceBetween: -56,
+        },
+    },
 });
 
 /*=============== SWIPER TESTIMONIAL ===============*/
