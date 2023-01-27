@@ -640,14 +640,41 @@ body.dark-theme {
   background-color: var(--title-color);
 }
 
-/*=============== TESTIMONIAL ===============*/
+/* =============== TESTIMONIAL ===============*/
 
 
 /* Swiper class */
 
 
 /*=============== CONTACT ===============*/
+.contact__container{
+  row-gap: 3.5rem;
+}
 
+.contact__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 2.5rem;
+}
+
+.contact__title i{
+  font-size: 1rem;
+  font-weight: initial;
+}
+
+.contact__info,
+.contact__data,
+.contact__form{
+  display: grid;
+}
+
+.contact__info{
+  row-gap: 2;
+}
 
 /* Status color */
 
