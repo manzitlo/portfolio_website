@@ -29,7 +29,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="ri-home-smile-line"></i> HOME
                             </a>
                         </li>
@@ -73,7 +73,7 @@
 
                 <div class="nav__buttons">
                     <!-- Theme change <button> -->
-                    <!-- <i class="ri-contrast-2-line change-theme" id="theme-button"></i> -->
+                    <i class="ri-contrast-2-fill change-theme" id="theme-button"></i>
 
                     <!-- Toggle button -->
                     <div class="nav__toggle" id="nav-toggle">
@@ -91,9 +91,9 @@
                     <div class="home__data grid">
                         <h1 class="home__title">
                             Hi, This is Wenzhe Luo <br>
-                            Seeking FullStack Engineer <br>
+                            <br>
+                            Seeking Software Engineer <br>
                             Master in Computer Engineering <br>
-                            Keep Hard-working on it...
                         </h1>
 
                         <div class="home__blob grid">
@@ -142,7 +142,7 @@
 
                             <p class="home__info-description">
                                 <b>Name: </b>Wenzhe Luo <br>
-                                <b>Email: </b>wluo4@gmu.edu <br>
+                                <b>Email: </b>hellolwz1120@gmail.com <br>
                                 <b>Location: </b> Vienna, VA, USA <br>
                             </p>
                         </div>
@@ -167,7 +167,7 @@
                             </h3>
 
                             <p class="home__info-number">
-                                06+
+                                08+
                             </p>
                         </div>
 
@@ -180,7 +180,7 @@
                 <h2 class="section__title">Skills</h2>
                 <span class="section__subtitle">My favorite skills</span>
 
-                <div class="skill__container container grid section__border">
+                <div class="skills__container container grid section__border">
                     <!--==================== SKILLS 1====================-->
                     <div class="skills__content">
                         <h3 class="skills__title">
@@ -462,8 +462,8 @@
                                     <span class="memories__subtitle">12 weeks (Jan 2021)</span>
                                     <h1 class="memories__title">My dog: Tracy</h1>
 
-                                    <a href="#" class="memories__button">
-                                        View Pictures... <i class="ri-gallery-line"></i>
+                                    <a href="https://www.instagram.com/tracy_minidox/" class="memories__button">
+                                        View more Pictures... <i class="ri-gallery-line"></i>
                                     </a>
                                 </div>
                             </div>
@@ -476,9 +476,6 @@
                                     <span class="memories__subtitle">Orlando (Dec 2021)</span>
                                     <h1 class="memories__title">Kings Landing Kayaking</h1>
 
-                                    <a href="#" class="memories__button">
-                                        View Pictures... <i class="ri-gallery-line"></i>
-                                    </a>
                                 </div>
                             </div>
 
@@ -490,9 +487,6 @@
                                     <span class="memories__subtitle">Orlando (Dec 2021)</span>
                                     <h1 class="memories__title">Universal</h1>
 
-                                    <a href="#" class="memories__button">
-                                        View Pictures... <i class="ri-gallery-line"></i>
-                                    </a>
                                 </div>
                             </div>
 
@@ -504,9 +498,6 @@
                                     <span class="memories__subtitle">Buffalo (Aug 2022)</span>
                                     <h1 class="memories__title">Niagara Falls</h1>
 
-                                    <a href="#" class="memories__button">
-                                        View Pictures... <i class="ri-gallery-line"></i>
-                                    </a>
                                 </div>
                             </div>
 
@@ -518,9 +509,6 @@
                                     <span class="memories__subtitle">Me (Dec 2022)</span>
                                     <h1 class="memories__title">Lake Placid</h1>
 
-                                    <a href="#" class="memories__button">
-                                        View Pictures... <i class="ri-gallery-line"></i>
-                                    </a>
                                 </div>
                             </div>
 
@@ -532,9 +520,6 @@
                                     <span class="memories__subtitle">New York (Dec 2022)</span>
                                     <h1 class="memories__title">Time Square</h1>
 
-                                    <a href="#" class="memories__button">
-                                        View Pictures... <i class="ri-gallery-line"></i>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -590,7 +575,7 @@
                                 <span class="contact__data-info">@manzitlo</span>
 
                                 <a href="https://instagram.com/manzitlo?igshid=NTdlMDg3MTY=" target="_blank" class="contact__button">
-                                    Write me
+                                    Send me <i class="ri-arrow-right-s-fill"></i>
                                 </a>
                             </div>
 
@@ -617,9 +602,11 @@
                                 <label class="contact__form-tag">Information</label>
                                 <textarea name="user_information" placeholder="Write your message" id="contact-information" class="contact__form-input"></textarea>
                             </div>
+                            
+                            <p class="contact__message" id="contact-message"></p>
 
                             <button type="submit" class="contact__button">
-                                Submit <i class="ri-arrow-up-circle-line"></i>
+                                Submit <i class="ri-mail-send-line"></i>
                             </button>
                         </form>
                     </div>
@@ -630,21 +617,60 @@
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-            
+            <div class="footer__container container">
+                <h1 class="footer__title">manzitlo</h1>
+                <p>FullStack Engineer</p>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/topwesley/" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+
+                    <a href="https://github.com/manzitlo" target="_blank" class="footer__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/manzitlo/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Portfolio of Wenzhe Luo <br>
+                    (Using HTML, CSS, JavaScript) <br>
+                    📌** Including EmailJS, SwiperJS, ScrollReveal... ** <br>
+                </span>
+            </div>
         </footer>
 
 
         <!--========== SCROLL UP ==========-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-circle-line"></i>
+        </a>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
         <script src="assets/js/swiper-bundle.min.js"></script>
         
         <!--=============== EMAIL JS ===============-->
-        
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
